@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+}
+body{
+    /* 1b263b */
+    background-color: #343541;
+    color: #DDDDDD;
+}
+p{
+    padding: 10px 0;
+    line-height: 1.5rem;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width:300px;
+    cursor: pointer;
+    color: #fff;
+}
+.logo h1{
+    font-weight: 700;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    width: 80px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.navbar ul li a:hover{
+    background-color: #1b263b;
+    transition: 0.5s;
+}
+.content{
+    margin-top: 200px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content h1:hover{
+    color: aqua;
+    transition: 0.5s;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.content div{
+    align-items: center;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #1b263b;
+    border: none;
+}
+.introduction{
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+    padding: 30px 20px;
+    border: 5px solid #fff;
+    border-radius: 25px;
+}
+.introduction h1{
+    padding: 10px 0;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.introduction h3{
+    padding: 10px 0;
+}
+.types-of-sem{
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+.types-of-sem h1,h3{
+    font-weight: 600;
+    padding: 5px 0;
+}
+.types-of-sem h1{
+    font-size: 40px;
+}
+.grid-cont{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px;
+}
+.grid-cont .grid-item{
+    padding: 10px 20px;
+    border-bottom: 5px solid #009688;
+    text-align: justify;
+}
+.grid-cont .grid-item h1{
+    font-size: 30px;
+}
+.tips{
+    width: 95%;
+    margin: 10px auto;
+}
+.tips h1,h3{
+    font-weight: 700;
+    padding: 10px 0;
+}
+.tips h1{
+    font-size: 40px;
+}
+.tips-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 20px;
+}
+.tips-grid .tips-item{
+    text-align: justify;
+    padding: 10px 20px;
+    background-color: #DDDDDD;
+    color: #343541;
+}
+.tips-grid .tips-item h1{
+    font-size: 25px;
+}
+.environmental-impact{
+    width: 90%;
+    margin: 30px auto;
+}
+.environmental-impact h1{
+    font-size: 40px;
+}
+.environmental-impact h1,h3{
+    font-weight: 700;
+    padding: 10px 0;
+}
+.environmental-impact .ei-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px 40px;
+}
+.environmental-impact .ei-grid .ei-item{
+    padding: 10px;
+    text-align: justify;
+    border-left: 5px solid #009688;
+    background-color: #1b263b;
+}
+.environmental-impact .ei-grid .ei-item h1{
+    font-size: 30px;
+}
+.software{
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.software h1,h3{
+    padding: 10px 0;
+    font-weight: 700;
+}
+.software h1{
+    font-size: 40px;
+}
+.soft-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 10px;
+    gap: 20px;
+}
+.soft-cont .soft-item{
+    text-align: justify;
+    border-bottom: 5px solid #DDDDDD;
+}
+.soft-cont .soft-item h1{
+    font-size: 30px;
+}
